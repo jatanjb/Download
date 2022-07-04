@@ -1,4 +1,4 @@
-package com.ase.download.property;
+package com.ase.download.model;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

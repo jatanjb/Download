@@ -9,7 +9,7 @@ import org.springframework.web.multipart.MultipartFile;
 
 import com.ase.download.exception.DownloadException;
 import com.ase.download.exception.DownloadFileNotFoundException;
-import com.ase.download.property.FileProperties;
+import com.ase.download.model.FileProperties;
 
 import java.io.IOException;
 import java.net.MalformedURLException;
