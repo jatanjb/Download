@@ -27,7 +27,7 @@ public class DownloadFileController {
     @GetMapping("/getFileList")
     public String[] getFileList() {
 
-        File directoryPath = new File("/Users/jatan/eclipse-workspace-new/Server/userdata/serverFileHolder");
+        File directoryPath = new File("/home/ubuntu/Server/userdata/serverFileHolder");
         String contents[] = directoryPath.list();
         return contents;
     }
